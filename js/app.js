@@ -32,7 +32,7 @@ function buscarClimaSugerencia(e) {
 
 function consultarAPI(ciudad) {
   const appID = "67e9b99f492f58ff54d4e22e4446fe65";
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${appID}&lang=es`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${appID}&lang=es`;
 
   mostrarSpinner();
 
